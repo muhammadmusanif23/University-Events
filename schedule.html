@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View the complete schedule for UET Peshawar events">
+    <meta name="keywords" content="Event Schedule, UET Timetable, University Events">
+    <title>Event Schedule | UET Events - University Event Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="container nav-container">
+                <div class="logo">
+                    <img src="https://via.placeholder.com/50x50/1e3a8a/ffffff?text=UET" alt="UET Peshawar Logo" class="logo-img">
+                    <span class="logo-text">UET Events</span>
+                </div>
+                
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="events.html" class="nav-link">Events</a></li>
+                    <li><a href="schedule.html" class="nav-link active">Schedule</a></li>
+                    <li><a href="speakers.html" class="nav-link">Speakers</a></li>
+                    <li><a href="register.html" class="nav-link">Register</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Event Schedule</h1>
+            <p class="page-subtitle">Complete timetable for all university events</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Schedule Table Section -->
+        <section class="schedule-section section">
+            <div class="container">
+                <div class="schedule-intro">
+                    <h2 class="section-title">Complete Event Timetable</h2>
+                    <p class="section-subtitle">Plan your day with our detailed schedule of events, workshops, and seminars</p>
+                </div>
+
+                <div class="table-container">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Event</th>
+                                <th>Speaker</th>
+                                <th>Hall</th>
+                                <th>Category</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Time">09:00 AM</td>
+                                <td data-label="Event">Opening Ceremony</td>
+                                <td data-label="Speaker">Vice Chancellor Dr. Noor Muhammad</td>
+                                <td data-label="Hall">Main Auditorium</td>
+                                <td data-label="Category"><span class="category-badge badge-general">General</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">09:30 AM</td>
+                                <td data-label="Event">Keynote Speech: Future of Technology</td>
+                                <td data-label="Speaker">Dr. Ahmed Khan</td>
+                                <td data-label="Hall">Main Auditorium</td>
+                                <td data-label="Category"><span class="category-badge badge-technical">Technical</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">10:30 AM</td>
+                                <td data-label="Event">AI Workshop Session 1</td>
+                                <td data-label="Speaker">Prof. Sara Ali</td>
+                                <td data-label="Hall">CS Lab 1</td>
+                                <td data-label="Category"><span class="category-badge badge-workshop">Workshop</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">10:30 AM</td>
+                                <td data-label="Event">Web Development Basics</td>
+                                <td data-label="Speaker">Mr. Hamza Malik</td>
+                                <td data-label="Hall">CS Lab 2</td>
+                                <td data-label="Category"><span class="category-badge badge-workshop">Workshop</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">11:30 AM</td>
+                                <td data-label="Event">Coffee Break & Networking</td>
+                                <td data-label="Speaker">-</td>
+                                <td data-label="Hall">Cafeteria</td>
+                                <td data-label="Category"><span class="category-badge badge-break">Break</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">12:00 PM</td>
+                                <td data-label="Event">Panel Discussion: Industry Trends</td>
+                                <td data-label="Speaker">Industry Experts Panel</td>
+                                <td data-label="Hall">Conference Hall</td>
+                                <td data-label="Category"><span class="category-badge badge-seminar">Seminar</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">01:00 PM</td>
+                                <td data-label="Event">Lunch Break</td>
+                                <td data-label="Speaker">-</td>
+                                <td data-label="Hall">Cafeteria</td>
+                                <td data-label="Category"><span class="category-badge badge-break">Break</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">02:00 PM</td>
+                                <td data-label="Event">AI Workshop Session 2: Deep Learning</td>
+                                <td data-label="Speaker">Prof. Sara Ali</td>
+                                <td data-label="Hall">CS Lab 1</td>
+                                <td data-label="Category"><span class="category-badge badge-workshop">Workshop</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">02:00 PM</td>
+                                <td data-label="Event">Advanced CSS Techniques</td>
+                                <td data-label="Speaker">Mr. Hamza Malik</td>
+                                <td data-label="Hall">CS Lab 2</td>
+                                <td data-label="Category"><span class="category-badge badge-workshop">Workshop</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">02:00 PM</td>
+                                <td data-label="Event">Cyber Security Fundamentals</td>
+                                <td data-label="Speaker">Dr. Bilal Ahmed</td>
+                                <td data-label="Hall">Room 301</td>
+                                <td data-label="Category"><span class="category-badge badge-workshop">Workshop</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">03:00 PM</td>
+                                <td data-label="Event">Career Guidance Session</td>
+                                <td data-label="Speaker">Ms. Ayesha Khan</td>
+                                <td data-label="Hall">Conference Hall</td>
+                                <td data-label="Category"><span class="category-badge badge-seminar">Seminar</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">04:00 PM</td>
+                                <td data-label="Event">Tea Break</td>
+                                <td data-label="Speaker">-</td>
+                                <td data-label="Hall">Cafeteria</td>
+                                <td data-label="Category"><span class="category-badge badge-break">Break</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">04:30 PM</td>
+                                <td data-label="Event">Student Project Presentations</td>
+                                <td data-label="Speaker">Final Year Students</td>
+                                <td data-label="Hall">Main Hall</td>
+                                <td data-label="Category"><span class="category-badge badge-competition">Competition</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">05:30 PM</td>
+                                <td data-label="Event">Hackathon 2026 Kickoff</td>
+                                <td data-label="Speaker">CS Society Team</td>
+                                <td data-label="Hall">CS Labs (All)</td>
+                                <td data-label="Category"><span class="category-badge badge-hackathon">Hackathon</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">06:00 PM</td>
+                                <td data-label="Event">Networking Session</td>
+                                <td data-label="Speaker">All Participants</td>
+                                <td data-label="Hall">Lawn Area</td>
+                                <td data-label="Category"><span class="category-badge badge-networking">Networking</span></td>
+                            </tr>
+                            <tr>
+                                <td data-label="Time">07:00 PM</td>
+                                <td data-label="Event">Closing Ceremony & Awards</td>
+                                <td data-label="Speaker">Dean Computer Science</td>
+                                <td data-label="Hall">Main Auditorium</td>
+                                <td data-label="Category"><span class="category-badge badge-general">General</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Schedule Notes -->
+                <div class="schedule-notes">
+                    <h3>Important Notes:</h3>
+                    <ul>
+                        <li>Please arrive 15 minutes before your scheduled session</li>
+                        <li>Registration is mandatory for all workshop participants</li>
+                        <li>Food and refreshments will be provided during breaks</li>
+                        <li>Some sessions may run in parallel - choose wisely!</li>
+                        <li>Certificates will be distributed at the closing ceremony</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-title">UET Events</h3>
+                    <p class="footer-text">University of Engineering & Technology Peshawar — events, workshops & student activities.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook">??</a>
+                        <a href="#" class="social-link" aria-label="Twitter">??</a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">??</a>
+                        <a href="#" class="social-link" aria-label="Instagram">??</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="events.html" class="footer-link">Events</a></li>
+                        <li><a href="schedule.html" class="footer-link">Schedule</a></li>
+                        <li><a href="speakers.html" class="footer-link">Speakers</a></li>
+                        <li><a href="register.html" class="footer-link">Register</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-contact">
+                        <li>?? UET Peshawar, KP, Pakistan</li>
+                        <li>?? +92-91-9216701-14</li>
+                        <li>?? info@uetpeshawar.edu.pk</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 UET Peshawar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
